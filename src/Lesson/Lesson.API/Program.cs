@@ -1,4 +1,7 @@
 
+using Lesson.Application;
+using Lesson.Infrastructure;
+
 namespace Lesson.API
 {
     public class Program
@@ -8,6 +11,8 @@ namespace Lesson.API
             var builder = WebApplication.CreateBuilder(args);
 
             // Add services to the container.
+            builder.Services.AddLessonApplication();
+            builder.Services.AddLessonInfrastructure(builder.Configuration);
 
             builder.Services.AddControllers();
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
