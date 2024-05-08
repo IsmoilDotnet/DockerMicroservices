@@ -1,4 +1,7 @@
 
+using Teacher.Application;
+using Teacher.Infrastructure;
+
 namespace Teacher.API
 {
     public class Program
@@ -8,6 +11,8 @@ namespace Teacher.API
             var builder = WebApplication.CreateBuilder(args);
 
             // Add services to the container.
+            builder.Services.AddTeacherApplication();
+            builder.Services.AddTeacherInfrastructure(builder.Configuration);
 
             builder.Services.AddControllers();
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
