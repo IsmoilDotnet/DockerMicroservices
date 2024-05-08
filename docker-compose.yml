@@ -1,0 +1,77 @@
+version: '3.4'
+
+services:
+  admin.api:
+    image: ${DOCKER_REGISTRY-}adminapi
+    build:
+      context: .
+      dockerfile: src/Admin/Admin.API/Dockerfile
+    depends_on:
+      - db_admin
+    networks:
+      - db-network
+    environment:
+      - DB_HOST=db_admin
+      - DB_PORT=5432
+      - DB_NAME=DockerMicroserviceAdminDB
+      - DB_USER=postgres
+      - DB_PASSWORD=psqlDB
+    
+
+  db_admin:
+    image: postgres:latest
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=psqlDB
+      - POSTGRES_DB=DockerMicroserviceAdminDB
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    ports:
+      - "5432"
+    networks:
+      - db-network
+
+
+  lesson.api:
+    image: ${DOCKER_REGISTRY-}lessonapi
+    build:
+      context: .
+      dockerfile: src/Lesson/Lesson.API/Dockerfile
+    environment:
+      - DB_HOST=db_admin
+      - DB_PORT=5432
+      - DB_NAME=DockerMicroserviceLessonDB
+      - DB_USER=postgres
+      - DB_PASSWORD=psqlDB
+
+  student.api:
+    image: ${DOCKER_REGISTRY-}studentapi
+    build:
+      context: .
+      dockerfile: src/Student/Student.API/Dockerfile
+    environment:
+      - DB_HOST=db_admin
+      - DB_PORT=5432
+      - DB_NAME=DockerMicroserviceStudentDB
+      - DB_USER=postgres
+      - DB_PASSWORD=psqlDB
+
+  teacher.api:
+    image: ${DOCKER_REGISTRY-}teacherapi
+    build:
+      context: .
+      dockerfile: src/Teacher/Teacher.API/Dockerfile
+    environment:
+      - DB_HOST=db_admin
+      - DB_PORT=5432
+      - DB_NAME=DockerMicroserviceTeacherDB
+      - DB_USER=postgres
+      - DB_PASSWORD=psqlDB
+
+
+networks:
+  db-network:
+    driver: bridge
+
+volumes:
+  pgdata:
