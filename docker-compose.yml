@@ -75,10 +75,23 @@ services:
       context: .
       dockerfile: ApiGateway/Gateway.API/Dockerfile
 
+  product.api:
+    image: ${DOCKER_REGISTRY-}productapi
+    build:
+      context: .
+      dockerfile: src/Product/Product.API/Dockerfile
+    environment:
+      - DB_HOST=db_admin
+      - DB_PORT=5432
+      - DB_NAME=DockerMicroserviceProductDB
+      - DB_USER=postgres
+      - DB_PASSWORD=psqlDB
+
 networks:
   db-network:
     driver: bridge
 
 volumes:
   pgdata:
+
 
