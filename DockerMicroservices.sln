@@ -17,43 +17,63 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Student", "Student", "{DA96
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Teacher", "Teacher", "{4523EFE4-80D2-4837-8B2B-7A2456485EBC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Admin.API", "src\Admin\Admin.API\Admin.API.csproj", "{70B1B668-E28E-424D-BD36-2D15061898B9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Admin.API", "src\Admin\Admin.API\Admin.API.csproj", "{70B1B668-E28E-424D-BD36-2D15061898B9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Admin.Application", "src\Admin\Admin.Application\Admin.Application.csproj", "{130C7CE3-C8E5-41C1-B9F8-2F7898560F40}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Admin.Application", "src\Admin\Admin.Application\Admin.Application.csproj", "{130C7CE3-C8E5-41C1-B9F8-2F7898560F40}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Admin.Domain", "src\Admin\Admin.Domain\Admin.Domain.csproj", "{6AA78141-4E50-474F-8944-04D22B76C075}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Admin.Domain", "src\Admin\Admin.Domain\Admin.Domain.csproj", "{6AA78141-4E50-474F-8944-04D22B76C075}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Admin.Infrastructure", "src\Admin\Admin.Infrastructure\Admin.Infrastructure.csproj", "{7F0932C4-D219-420E-BDAD-F7831D3DB760}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Admin.Infrastructure", "src\Admin\Admin.Infrastructure\Admin.Infrastructure.csproj", "{7F0932C4-D219-420E-BDAD-F7831D3DB760}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson.Domain", "src\Lesson\Lesson.Domain\Lesson.Domain.csproj", "{BB452E9C-DFCD-4397-81E9-D44055DE93AE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lesson.Domain", "src\Lesson\Lesson.Domain\Lesson.Domain.csproj", "{BB452E9C-DFCD-4397-81E9-D44055DE93AE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson.Application", "src\Lesson\Lesson.Application\Lesson.Application.csproj", "{58D387F3-EC33-4C87-ACE9-66EEEE1683E2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lesson.Application", "src\Lesson\Lesson.Application\Lesson.Application.csproj", "{58D387F3-EC33-4C87-ACE9-66EEEE1683E2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson.Infrastructure", "src\Lesson\Lesson.Infrastructure\Lesson.Infrastructure.csproj", "{0681497F-7C3F-4E13-8372-3E2784ABFFDB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lesson.Infrastructure", "src\Lesson\Lesson.Infrastructure\Lesson.Infrastructure.csproj", "{0681497F-7C3F-4E13-8372-3E2784ABFFDB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Student.Domain", "src\Student\Student.Domain\Student.Domain.csproj", "{A1A68B2C-D46F-44F8-B5BA-76A5891106CD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Student.Domain", "src\Student\Student.Domain\Student.Domain.csproj", "{A1A68B2C-D46F-44F8-B5BA-76A5891106CD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Student.Application", "src\Student\Student.Application\Student.Application.csproj", "{19ED143F-EFC2-4C02-950D-17C95B8C24C0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Student.Application", "src\Student\Student.Application\Student.Application.csproj", "{19ED143F-EFC2-4C02-950D-17C95B8C24C0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Student.Infrastructure", "src\Student\Student.Infrastructure\Student.Infrastructure.csproj", "{9441BEF3-A510-4029-9AF6-B36B8E902061}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Student.Infrastructure", "src\Student\Student.Infrastructure\Student.Infrastructure.csproj", "{9441BEF3-A510-4029-9AF6-B36B8E902061}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Teacher.Domain", "src\Teacher\Teacher.Domain\Teacher.Domain.csproj", "{7DE486D9-BA60-46ED-AE60-CFE3B09AFB56}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Teacher.Domain", "src\Teacher\Teacher.Domain\Teacher.Domain.csproj", "{7DE486D9-BA60-46ED-AE60-CFE3B09AFB56}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Teacher.Application", "src\Teacher\Teacher.Application\Teacher.Application.csproj", "{C9449ABE-0CA7-4674-A008-BCE9F856B9AB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Teacher.Application", "src\Teacher\Teacher.Application\Teacher.Application.csproj", "{C9449ABE-0CA7-4674-A008-BCE9F856B9AB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Teacher.Infrastructure", "src\Teacher\Teacher.Infrastructure\Teacher.Infrastructure.csproj", "{3DF8FBD5-DFB9-459D-B40F-2D64C1F08522}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Teacher.Infrastructure", "src\Teacher\Teacher.Infrastructure\Teacher.Infrastructure.csproj", "{3DF8FBD5-DFB9-459D-B40F-2D64C1F08522}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Teacher.API", "src\Teacher\Teacher.API\Teacher.API.csproj", "{8B9D9021-9C98-47AE-B1A3-E57599E0433C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Teacher.API", "src\Teacher\Teacher.API\Teacher.API.csproj", "{8B9D9021-9C98-47AE-B1A3-E57599E0433C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Student.API", "src\Student\Student.API\Student.API.csproj", "{6224799C-7A6A-4B88-8DF1-C5B706AB5219}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Student.API", "src\Student\Student.API\Student.API.csproj", "{6224799C-7A6A-4B88-8DF1-C5B706AB5219}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson.API", "src\Lesson\Lesson.API\Lesson.API.csproj", "{81038806-1A73-46E2-8CCF-8C4254343FF5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lesson.API", "src\Lesson\Lesson.API\Lesson.API.csproj", "{81038806-1A73-46E2-8CCF-8C4254343FF5}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ApiGateway", "ApiGateway", "{EE3D67D0-4A8C-45F5-9779-266ABFCAA3E9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gateway.API", "ApiGateway\Gateway.API\Gateway.API.csproj", "{394475A8-2F27-4ACE-8F7D-8B1C6BB4B2F1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gateway.API", "ApiGateway\Gateway.API\Gateway.API.csproj", "{394475A8-2F27-4ACE-8F7D-8B1C6BB4B2F1}"
 EndProject
 Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{EA16D783-42AD-4E3A-9A09-3A8A651F3196}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Product", "Product", "{52360747-329E-47CB-A406-CDA2DF2F439B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Order", "Order", "{06819286-F708-46CC-AE3E-AEA340C72A92}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Order.Domain", "src\Order\Order.Domain\Order.Domain.csproj", "{BF7CC270-2DDC-4474-BEF2-AE8BB55198DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Order.Application", "src\Order\Order.Application\Order.Application.csproj", "{603410B9-B04F-4613-9C05-B414AFD3073F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Order.Infrastructure", "src\Order\Order.Infrastructure\Order.Infrastructure.csproj", "{C4FB08ED-B105-4477-982E-A344158097F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Order.API", "src\Order\Order.API\Order.API.csproj", "{6439EAFA-4142-471E-AF4E-7F4BA3673D25}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Product.API", "src\Product\Product.API\Product.API.csproj", "{AC7815AC-2F6E-4172-95AB-2C7C40D487D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Product.Domain", "src\Product\Product.Domain\Product.Domain.csproj", "{8D0A90EA-A032-4980-95AE-D0E4C084D7C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Product.Application", "src\Product\Product.Application\Product.Application.csproj", "{C66378C7-2C71-4E14-A2C2-BA6C41EAAE69}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Product.Infrastructure", "src\Product\Product.Infrastructure\Product.Infrastructure.csproj", "{641DF155-8365-4F03-A84E-4D4A11225740}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -133,6 +153,38 @@ Global
 		{EA16D783-42AD-4E3A-9A09-3A8A651F3196}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EA16D783-42AD-4E3A-9A09-3A8A651F3196}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EA16D783-42AD-4E3A-9A09-3A8A651F3196}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF7CC270-2DDC-4474-BEF2-AE8BB55198DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF7CC270-2DDC-4474-BEF2-AE8BB55198DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF7CC270-2DDC-4474-BEF2-AE8BB55198DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF7CC270-2DDC-4474-BEF2-AE8BB55198DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{603410B9-B04F-4613-9C05-B414AFD3073F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{603410B9-B04F-4613-9C05-B414AFD3073F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{603410B9-B04F-4613-9C05-B414AFD3073F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{603410B9-B04F-4613-9C05-B414AFD3073F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4FB08ED-B105-4477-982E-A344158097F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4FB08ED-B105-4477-982E-A344158097F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4FB08ED-B105-4477-982E-A344158097F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4FB08ED-B105-4477-982E-A344158097F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6439EAFA-4142-471E-AF4E-7F4BA3673D25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6439EAFA-4142-471E-AF4E-7F4BA3673D25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6439EAFA-4142-471E-AF4E-7F4BA3673D25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6439EAFA-4142-471E-AF4E-7F4BA3673D25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC7815AC-2F6E-4172-95AB-2C7C40D487D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC7815AC-2F6E-4172-95AB-2C7C40D487D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC7815AC-2F6E-4172-95AB-2C7C40D487D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC7815AC-2F6E-4172-95AB-2C7C40D487D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D0A90EA-A032-4980-95AE-D0E4C084D7C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D0A90EA-A032-4980-95AE-D0E4C084D7C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D0A90EA-A032-4980-95AE-D0E4C084D7C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D0A90EA-A032-4980-95AE-D0E4C084D7C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C66378C7-2C71-4E14-A2C2-BA6C41EAAE69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C66378C7-2C71-4E14-A2C2-BA6C41EAAE69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C66378C7-2C71-4E14-A2C2-BA6C41EAAE69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C66378C7-2C71-4E14-A2C2-BA6C41EAAE69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{641DF155-8365-4F03-A84E-4D4A11225740}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{641DF155-8365-4F03-A84E-4D4A11225740}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{641DF155-8365-4F03-A84E-4D4A11225740}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{641DF155-8365-4F03-A84E-4D4A11225740}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -160,6 +212,16 @@ Global
 		{81038806-1A73-46E2-8CCF-8C4254343FF5} = {D85E7EA5-310E-4EA4-A3F5-A25859564F5F}
 		{EE3D67D0-4A8C-45F5-9779-266ABFCAA3E9} = {DBBCD769-3CD7-4F6A-A82B-04EA24507373}
 		{394475A8-2F27-4ACE-8F7D-8B1C6BB4B2F1} = {EE3D67D0-4A8C-45F5-9779-266ABFCAA3E9}
+		{52360747-329E-47CB-A406-CDA2DF2F439B} = {DBBCD769-3CD7-4F6A-A82B-04EA24507373}
+		{06819286-F708-46CC-AE3E-AEA340C72A92} = {DBBCD769-3CD7-4F6A-A82B-04EA24507373}
+		{BF7CC270-2DDC-4474-BEF2-AE8BB55198DE} = {06819286-F708-46CC-AE3E-AEA340C72A92}
+		{603410B9-B04F-4613-9C05-B414AFD3073F} = {06819286-F708-46CC-AE3E-AEA340C72A92}
+		{C4FB08ED-B105-4477-982E-A344158097F7} = {06819286-F708-46CC-AE3E-AEA340C72A92}
+		{6439EAFA-4142-471E-AF4E-7F4BA3673D25} = {06819286-F708-46CC-AE3E-AEA340C72A92}
+		{AC7815AC-2F6E-4172-95AB-2C7C40D487D2} = {52360747-329E-47CB-A406-CDA2DF2F439B}
+		{8D0A90EA-A032-4980-95AE-D0E4C084D7C4} = {52360747-329E-47CB-A406-CDA2DF2F439B}
+		{C66378C7-2C71-4E14-A2C2-BA6C41EAAE69} = {52360747-329E-47CB-A406-CDA2DF2F439B}
+		{641DF155-8365-4F03-A84E-4D4A11225740} = {52360747-329E-47CB-A406-CDA2DF2F439B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B5EE2CCA-B4A7-4B71-B6CB-D3545DAD47EF}

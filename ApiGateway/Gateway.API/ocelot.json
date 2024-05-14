@@ -145,6 +145,54 @@
       "UpstreamHttpMethod": [ "DELETE" ]
     }, ///////////////////////////////////////////////      Admin API tugagan joyi        ///////////////////////////////////
     {
+      "DownstreamPathTemplate": "/api/Products",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7228
+        }
+      ],
+      "UpstreamPathTemplate": "/api/Product/GetAll",
+      "UpstreamHttpMethod": [ "GET" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/Products",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7228
+        }
+      ],
+      "UpstreamPathTemplate": "/api/Product/Create",
+      "UpstreamHttpMethod": [ "POST" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/Products",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7228
+        }
+      ],
+      "UpstreamPathTemplate": "/api/Product/Update",
+      "UpstreamHttpMethod": [ "PUT" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/Products",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7228
+        }
+      ],
+      "UpstreamPathTemplate": "/api/Product/Delete",
+      "UpstreamHttpMethod": [ "DELETE" ]
+    }, //////////////////////////////////////////////////    Product Tugagan joyi    /////////////////////////////////////////////
+    {
       "DownstreamPathTemplate": "/api/Lesson",
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [

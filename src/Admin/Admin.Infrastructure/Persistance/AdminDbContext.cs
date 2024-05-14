@@ -11,10 +11,10 @@ namespace Admin.Infrastructure.Persistance
 {
     public class AdminDbContext : DbContext, IAdminDbContext
     {
-        public AdminDbContext(DbContextOptions<AdminDbContext> options) 
-            : base(options) 
+        public AdminDbContext(DbContextOptions<AdminDbContext> options)
+            : base(options)
         {
-
+           //Database.Migrate();
         }
 
         public DbSet<AdminModel> Admins { get; set; }

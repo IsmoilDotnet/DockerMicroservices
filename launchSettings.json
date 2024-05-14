@@ -7,7 +7,8 @@
         "admin.api": "StartDebugging",
         "lesson.api": "StartDebugging",
         "student.api": "StartDebugging",
-        "teacher.api": "StartDebugging"
+        "teacher.api": "StartDebugging",
+        "gateway.api": "StartDebugging"
       }
     }
   }

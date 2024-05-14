@@ -69,9 +69,16 @@ services:
       - DB_PASSWORD=psqlDB
 
 
+  gateway.api:
+    image: ${DOCKER_REGISTRY-}gatewayapi
+    build:
+      context: .
+      dockerfile: ApiGateway/Gateway.API/Dockerfile
+
 networks:
   db-network:
     driver: bridge
 
 volumes:
   pgdata:
+
